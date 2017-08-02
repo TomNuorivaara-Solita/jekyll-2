@@ -2518,7 +2518,7 @@ body, .body {
   .content__frontpage-section {
     padding: 2rem 3rem; }
     .content__frontpage-section:nth-child(even) {
-      background-color: #f5f5f5;
+      background-color: #f1f1f1;
       box-shadow: 0px 2px 2px #ddd; }
 
 .frontpage-button-area {
@@ -2619,7 +2619,7 @@ body, .body {
   vertical-align: -0.7rem; }
 
 .language--active {
-  color: cyan; }
+  color: white; }
 
 .latest-item {
   font-size: 0.75rem;
@@ -2628,10 +2628,10 @@ body, .body {
   .latest-item__header-link {
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: #444444;
     transition: 800ms; }
     .latest-item__header-link:hover {
-      color: blue; }
+      color: #0088ce; }
   .latest-item__timestamp::after {
     content: "|";
     padding: 0 0.5rem; }
