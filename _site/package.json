@@ -4,10 +4,12 @@
   "description": "Digitraffic",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "build": "bundle exec jekyll build",
+    "dev": "gulp",
+    "test": ""
   },
   "author": "Tom Nuorivaara",
-  "license": "MIT",
+  "license": "",
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",

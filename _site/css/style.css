@@ -2546,7 +2546,7 @@ body, .body {
 .header-menu__list {
   list-style-type: none;
   margin: 0;
-  padding: 0; }
+  padding: 1rem 0; }
 
 .header-menu__item {
   display: inline-block;
@@ -2648,6 +2648,8 @@ body, .body {
   display: inline-block;
   float: left;
   margin: 1rem 1rem; }
+  .logo__service {
+    padding: 1rem; }
 
 .h1 {
   font-family: "Montserrat", Arial, sans-serif;

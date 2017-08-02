@@ -2,4 +2,8 @@
     display: inline-block;
     float: left;
     margin: $header-margin-y $header-margin-x;
+
+    &__service {
+      padding: 1rem;
+    }
 }
