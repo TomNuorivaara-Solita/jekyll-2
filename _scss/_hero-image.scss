@@ -23,7 +23,7 @@
     /* Elements */
     &__heading {
         @include heading(6rem, 200, $white, -0.05rem);
-        text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
         padding: 0 $content-padding;
         margin: $margin-xxl auto 0 auto;
     }
