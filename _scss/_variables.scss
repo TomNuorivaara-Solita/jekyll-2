@@ -19,12 +19,18 @@ $margin-lg: 4.5rem;
 $margin-xl: 6rem;
 $margin-xxl: 7.5rem;
 
+/* Transitions */
+$transition-faster: 150ms;
+$transition-fast: 300ms;
+$transition-moderate: 600ms;
+$transition-slow: 900ms;
+
 /* Body */
 $body-background-color: $white;
 
 /* Headings */
 $heading-font-family: 'Montserrat', Arial, sans-serif;
-$heading-letter-spacing: -0.1rem;
+$heading-letter-spacing: 0;
 
 /* Header */
 $header-background-color: #666;

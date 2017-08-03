@@ -1,6 +1,7 @@
 .h-link {
   color: $blue-dark;
   text-decoration: none;
+  transition: $transition-fast;
   
   &:link, &:visited {
     color: $blue-dark;
