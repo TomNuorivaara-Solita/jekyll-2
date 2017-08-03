@@ -1,6 +1,6 @@
 ---
-title: Some serious news
+title: Tämä tässä on kolmas tiedote, joka on sivustolla julkaistu
 layout: default
 ---
 
-This is a news article about some serious stuff.
+Tärkeää asiaa.

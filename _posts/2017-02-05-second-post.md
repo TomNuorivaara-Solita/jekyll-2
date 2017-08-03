@@ -1,6 +1,6 @@
 ---
-Title: This is the second post
+title: Tämä on sivuston toinen tiedote
 layout: default
 ---
 
-This is the second post written in the news.
+Tässä tiedotteessa kerrotaan asioita.

@@ -1,6 +1,6 @@
 ---
-Title: This is the first post
+Title: Tämä on ensimmäinen tiedote
 layout: default
 ---
 
-This is the first post in the news.
+Tiedotteen leipätekstiä.

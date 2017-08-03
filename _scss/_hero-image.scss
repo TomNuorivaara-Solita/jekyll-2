@@ -31,7 +31,7 @@
     &__intro {
         @include heading(2.25rem, 200, $white);
         text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
-        max-width: 50rem;
+        max-width: 55rem;
         padding: 0 $content-padding;
         margin: 0 auto $margin-lg auto;
     }

@@ -1,6 +1,6 @@
 ---
-title: This is the newest post
+title: Toistaiseksi uusin tiedote
 layout: default
 ---
 
-This is the fourth post.
+Tämä on sivuston uusin tiedote toistaiseksi.
