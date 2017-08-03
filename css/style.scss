@@ -3,6 +3,9 @@
 /* Normalize */
 @import "normalize";
 
+/* Reset margins and paddings */
+@import "reset-spacing";
+
 /* Flexboxgrid Sass */
 @import "flexboxgrid";
 
@@ -26,16 +29,18 @@
   "button",
   "content",
   "frontpage-button-area",
-  "header",
-  "header-menu",
-  "hero-image",
-  "icons",
-  "language",
-  "latest-item",
-  "link",
-  "logo",
+  "h-link",
   "h1",
   "h2",
   "h3",
   "h4",
+  "header",
+  "header-menu",
+  "hero-image",
+  "icons",
+  "img",
+  "language",
+  "latest-item",
+  "link",
+  "logo",
   "utilities";

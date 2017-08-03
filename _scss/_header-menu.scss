@@ -6,13 +6,13 @@
 .header-menu__list {
     list-style-type: none;
     margin: 0;
-    padding: 1rem 0;
+    padding: $margin-xs 0;
 }
 
 .header-menu__item {
     display: inline-block;
-    margin-left: 1rem;
-    font-size: 0.75rem;
+    margin-left: $margin-xs;
+    font-size: $font-size-xs;
     text-transform: uppercase;
 }
 

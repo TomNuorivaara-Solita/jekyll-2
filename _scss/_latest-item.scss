@@ -1,36 +1,40 @@
 .latest-item {
-    font-size: 0.75rem;
-    margin: 1rem;
+  font-size: $font-size-sm;
+  margin: $margin-xs;
 
-    /* Elements */
-    &__header-link {
-        text-decoration: none;
-        font-weight: bold;
-        color: $gray-68;
-        transition: 800ms;
+  /* Elements */
+  &__header-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: $gray-68;
+    transition: 800ms;
 
-        &:hover {
-            color: $blue;
-        }
+    &:hover {
+        color: $blue;
+    }
+  }
+
+  &__meta-first {
+    padding-bottom: $margin-xxxs;
+  }
+
+  &__timestamp {
+    &::after {
+        @include separator();
+    }
+  }
+
+  &__content-type {
+    text-transform: uppercase;
+  }
+
+  &__traffic-type {
+    &::after {
+        @include separator("•")
     }
 
-    &__timestamp {
-        &::after {
-            @include separator();
-        }
+    &:last-child::after {
+        @include separator("", 0);
     }
-
-    &__content-type {
-        text-transform: uppercase;
-    }
-
-    &__traffic-type {
-        &::after {
-            @include separator("•")
-        }
-
-        &:last-child::after {
-            @include separator("", 0);
-        }
-    }
+  }
 }

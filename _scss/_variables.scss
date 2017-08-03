@@ -3,12 +3,20 @@ $base-font-family: 'Roboto', Arial, sans-serif;
 $base-font-size: 16px;
 $base-line-height: 1.5;
 
+/* Font sizes */
+$font-size-xs: 0.75rem;
+$font-size-sm: 0.875rem;
+$font-size-md: 1rem;
+
 /* Margins and paddings */
+$margin-xxxs: 0.25rem;
+$margin-xxs: 0.5rem;
 $margin-xs: 1rem;
 $margin-sm: 2rem;
 $margin-md: 3rem;
 $margin-lg: 4.5rem;
 $margin-xl: 6rem;
+$margin-xxl: 7.5rem;
 
 /* Body */
 $body-background-color: $white;
