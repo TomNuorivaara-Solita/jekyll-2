@@ -2576,7 +2576,8 @@ body, .body {
   font-weight: 700rem;
   line-height: 1.5;
   letter-spacing: 0;
-  color: #444444; }
+  color: #444444;
+  margin: 1rem 0; }
 
 .h4 {
   font-family: "Montserrat", Arial, sans-serif;
@@ -2736,13 +2737,16 @@ body, .body {
   .logo__service {
     padding: 1rem; }
 
-.support-description__icon-p {
-  width: 100%;
-  text-align: center;
-  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.25); }
-.support-description__icon-i {
-  font-size: 6rem;
-  color: #0067be; }
+.support-description {
+  padding: 0 2rem 2rem 2rem; }
+  .support-description__icon-p {
+    width: 100%;
+    text-align: center;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    margin: 1rem 0; }
+  .support-description__icon-i {
+    font-size: 6rem;
+    color: #0067be; }
 
 .u--centered {
   text-align: center; }
